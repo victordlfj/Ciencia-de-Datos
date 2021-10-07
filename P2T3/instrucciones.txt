@@ -1,0 +1,19 @@
+Hay 9 clases, listadas en el archivo clases.csv
+
+
+En los  archivos
+
+imagenes_entrenamiento.csv
+imagenes_prueba.csv
+
+se listan los nombres de la imagenes  y la clase a la que pertenecen.
+La idea es que lean cada imagen de la lista, le calculen su vector de
+caracteristicas y le asignen la clase indicada, de modo que formen
+su conjunto de entrenamiento y de prueba para construir su clasificador.
+
+Las imágenes tienen diferente tamaño. Tomen esto en cuenta en las 
+funciones que van a usar para extraer características.  
+Lo bueno de este enfoque es que no necesitan cargar en memoria todas
+las imágenes al mismo tiempo, sino una imagen a la vez para extraer
+sus características.
+
